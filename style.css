@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Luckiest+Guy&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    background-color: #DFE0E5;
+}
+
+.container {
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 white;
+    background-color: #F4F2F1;
+    text-align: center;
+    padding: 30px;
+    border: none;
+    border-radius: 50px;
+    width: 400px;
+    height: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+img {
+    border: 2px solid grey;
+    border-radius: 50%;
+    width: 100px;
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 white;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+input {
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    font-size: 15px;
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+    padding: 20px;
+    height: 50px;
+    border: none;
+    border-radius: 11px;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    -ms-border-radius: 11px;
+    -o-border-radius: 11px;
+}
+
+input:hover {
+    background-color: #E4E6E7;
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 white;
+}
+
+.buttons {
+    margin: 60px auto;
+}
+
+button {
+    font-family: 'Luckiest Guy', cursive;
+    margin: auto 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 11px;
+    border: none;
+    background-color: #E4E6E7;
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 white;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    -ms-border-radius: 11px;
+    -o-border-radius: 11px;
+}
+
+button:hover {
+    background-color: #AEB4B7;
+}
+
+button:active {
+    box-shadow: none;
+}
+
+button:focus,
+input:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: #AEB4B7;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+a:hover {
+    color: burlywood;
+}
