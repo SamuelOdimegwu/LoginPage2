@@ -73,6 +73,10 @@ input:active {
     color: white;
 }
 
+::placeholder {
+    color: rgb(192, 192, 192);
+}
+
 .buttons {
     margin: 60px auto;
 }
